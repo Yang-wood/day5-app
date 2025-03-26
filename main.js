@@ -5,5 +5,5 @@ shortcut.addEventListener("click", showLayer);
 
 function showLayer(){
     const layer1 = document.querySelector("#layer1");
-    layer1.style.display - "block";
+    layer1.style.display = "block";
 }

@@ -19,3 +19,29 @@
     top: 100px;
     left: 20%;
 }
+
+.d-flex1 {
+    display: flex;
+}
+
+.simple {
+    gap: 1.5rem;
+}
+
+.tests1 {
+    gap: 5rem;
+}
+
+.banner {
+    border: 1px solid lightblue;
+}
+
+.news {
+    gap: 0.5rem;
+    font-size: 15px;
+}
+
+h3 {
+    background-color: lightblue;
+    background-clip: border-box;
+}
