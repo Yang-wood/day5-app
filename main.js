@@ -1,9 +1,9 @@
-const shortcut = document.querySelector(".shortcut")
-console.log(shortcut);
+
+const shortcut = document.querySelector(".shortcut");
+
 shortcut.addEventListener("click", showLayer);
 
 function showLayer(){
-    console.log("showlayer 실행됨");
     const layer1 = document.querySelector("#layer1");
-    
+    layer1.style.display - "block";
 }
