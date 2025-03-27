@@ -1,4 +1,4 @@
-const goBtn = document.querySelector("#go_btn")
+const goBtn = document.querySelector("#go_btn");
 
 goBtn.addEventListener("click",goSomeWhere);
 

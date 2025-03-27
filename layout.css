@@ -13,35 +13,59 @@
     margin-left: auto;
 }
 
-#layer1 {
+.layer1 {
     display: none;
     position:  absolute;
     top: 100px;
     left: 20%;
+    width: 330px;
 }
 
-.d-flex1 {
+.scroll {
+    overflow-y: scroll;
+    width: 370px;
+    height: 700px;
+}
+
+.simple-services {
     display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 330px;
 }
 
-.simple {
-    gap: 1.5rem;
+.login-btn {
+    cursor: pointer;
+    width: 108px;
 }
 
-.tests1 {
-    gap: 5rem;
+.service {
+    margin: 5px;
 }
 
-.banner {
+.sv-icons {
+    display: flex;
+    width: 130px;
+    height: 35px;
+    align-items: center;
+}
+
+.sv-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    padding: 1rem;
     border: 1px solid lightblue;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
-.news {
-    gap: 0.5rem;
-    font-size: 15px;
-}
-
-h3 {
+.sv-title {
+    height: 40px;
     background-color: lightblue;
-    background-clip: border-box;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-indent: 15px;
+    display: flex;
+    align-items: center;
 }
