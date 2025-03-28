@@ -3,9 +3,7 @@ const shortcut = document.querySelector(".shortcut");
 
 shortcut.addEventListener("click", showLayer);
 
-const window = 
-
-window.addEventListener("dbclick", hideLayer);
+// window.addEventListener("dbclick", hideLayer);
 
 function showLayer(){
     const layer1 = document.querySelector("#layer1");
@@ -14,8 +12,7 @@ function showLayer(){
 
 function hideLayer(){
     const layer1 = document.querySelector("#layer1");
-    layer1.style.display = "none";
-}
+    layer1.style.display = "none"; }
 
 const goBtn = document.querySelector(".login-btn");
 

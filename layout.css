@@ -21,6 +21,14 @@
     margin-left: auto;
 }
 
+.body {
+    height: 3000px;
+}
+
+.feildset {
+    border: 0;
+}
+
 #layer1 {
     display: none;
     top: 40px;
@@ -97,4 +105,21 @@
     text-indent: 15px;
     display: flex;
     align-items: center;
+}
+
+.search {
+    border: 2px solid rgb(17, 250, 17);
+    width: 50%;
+    margin: 0 auto;
+    padding: 1rem;  
+}
+
+#search_input {
+    border: 0;
+    outline: 0;
+    width: 90%;
+}
+
+#search_btn {
+    margin-left: auto;
 }
