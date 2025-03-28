@@ -3,7 +3,7 @@ const shortcut = document.querySelector(".shortcut");
 
 shortcut.addEventListener("click", showLayer);
 
-// window.addEventListener("dbclick", hideLayer);
+window.addEventListener("dblclick", hideLayer);
 
 function showLayer(){
     const layer1 = document.querySelector("#layer1");
