@@ -33,6 +33,10 @@
     gap: 3rem;
 }
 
+.gap-5 {
+    gap: 5rem;
+}
+
 .ml-auto {
     margin-left: auto;
 }
@@ -41,7 +45,7 @@
     height: 3000px;
 }
 
-.feildset {
+fieldset {
     border: 0;
 }
 
@@ -143,4 +147,65 @@
 
 .icon p {
     text-align: center;
+}
+
+/* `````````````````` layouts ---------------- */
+.main-area {
+    min-width: 70%;
+}
+
+
+.ad {
+    height: 130px;
+    background-color: burlywood;
+}
+
+.news {
+    height: 250px;
+    background-color: cadetblue;
+}
+
+.shopping {
+    height: 200px;
+    background-color: coral;
+}
+
+.sub-area {
+    min-width:  25%;
+}
+
+.login {
+    background-color: cornflowerblue;
+    height: 120px;
+}
+
+.happy-bean {
+    height: 180px;
+    background-color: chartreuse;
+}
+
+.memorial {
+    background-color: darkorchid;
+}
+
+/* -----------  footer ----------- */
+
+.footer-ad {
+    height: 80px;
+    background-color: rgb(99, 48, 48);
+}
+
+.notice {
+    background-color: yellowgreen;
+    height: 70px;
+}
+
+.partner {
+    background-color: rgb(134, 134, 89);
+    height: 60px;
+}   
+
+.corp {
+    background-color: rgb(56, 49, 100);
+    height: 65px;
 }
