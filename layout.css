@@ -17,6 +17,22 @@
     display: flex;
 }
 
+.justify-content-center {
+    justify-content: center;
+}
+
+.gap-1 {
+    gap: 1rem;
+}
+
+.gap-2 {
+    gap: 2rem;
+}
+
+.gap-3 {
+    gap: 3rem;
+}
+
 .ml-auto {
     margin-left: auto;
 }
@@ -108,7 +124,7 @@
 }
 
 .search {
-    border: 2px solid rgb(17, 250, 17);
+    border: 2px solid rgb(0, 141, 0);
     width: 50%;
     margin: 0 auto;
     padding: 1rem;  
@@ -122,4 +138,9 @@
 
 #search_btn {
     margin-left: auto;
+}
+
+
+.icon p {
+    text-align: center;
 }
